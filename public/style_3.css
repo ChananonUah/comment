@@ -1,0 +1,277 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  html,
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Pridi', serif;
+    position: relative;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .main {
+    width: 100%;
+    height: 150pv;
+    display: grid;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  .top_head {
+    display: flex;
+    background-color: #71C8E2;
+    margin-bottom: 20px;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+  }
+  
+  .text_head {
+    margin-left: 0.25rem;
+    color: rgb(255, 255, 255);
+    font-family: "Iceberg", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+  }
+  
+  .ment {
+    font-size: 27px;
+  }
+  
+  .tool_cal {
+    border-radius: 15px;
+  }
+  
+  .calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: 10px;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  
+  }
+  
+  .img_but1 {
+    height: 40px;
+    width: 50;
+  }
+  
+  .box {
+    background-color: #c9eeff;
+    text-align: left;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-radius: 35px;
+    box-shadow: 10px 10px 20px 6px rgba(0, 0, 0, 1.5);
+    color: black;
+  }
+  
+  .mentbox {
+    text-align: center;
+    width: fit-content;
+    height:fit-content;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .input {
+    border-radius: 30px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .in1 {
+    width: 75px;
+  }
+  
+  .in2 {
+    width: 55px;
+  }
+  
+  .mentin{
+    height: 80px;
+  }
+  
+  .Math {
+    width: 700px;
+    max-width: 800px;
+  }
+  
+  .box_ans {
+    color: white;
+    background-image: linear-gradient(90deg, rgb(35, 50, 77) 20%, rgba(0, 0, 0, 1) 89%);
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .button {
+    padding: 5px;
+    font-size: 20px;
+    width: max-content;
+    border-radius: 5px;
+    background-color: #324362;
+    color: white;
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+  }
+  
+  .ans {
+    background-image: linear-gradient(90deg, rgba(218, 73, 55, 1) 0%, rgba(255, 223, 30, 1) 62%);
+    color: black;
+    transition-duration: 0.4s;
+  }
+  
+  .ans:hover {
+    background-image: linear-gradient(90deg, rgba(255, 223, 30, 1) 0%, rgba(218, 73, 55, 1) 62%);
+    color: white;
+    border-radius: 30px;
+  }
+  
+  .reset {
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+  }
+  
+  .reset:hover {
+    background-color: #DA4937;
+    color: white;
+  }
+  
+  
+  
+  .fonts {
+    font-size: 50px;
+    font-weight: lighter;
+  }
+  
+  .but_in {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 25px;
+    width: max-content;
+    border-radius: 5px;
+  }
+  
+  .but_in:hover {
+    background-color: #324362;
+    color: white;
+  }
+  
+  
+  .display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width:93%;
+    height: 65%;
+    margin-right: 15px;
+  }
+  
+  #btn {
+    background-color: #ffe9a0;
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    outline: none;
+    border: solid rgb(0, 0, 0) 2px;
+  }
+  
+  .butcal {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #a94eeb;
+    color: white;
+    border: solid rgb(255, 255, 255) 2px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+  }
+  
+  input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+  }
+  
+  .close_cal {
+    background-color: #f10101;
+    width: 100%;
+    height: 70%;
+    border-radius: 5px;
+    outline: none;
+    border: solid rgb(255, 255, 255) 2px;
+    margin: 5px;
+  }
+  
+  /* เพิ่ม responsive styles สำหรับ mobile */
+  @media screen and (max-width: 1000px) and (min-width: 500px) {
+    .main {
+      height: auto;
+      position: relative;
+    }
+  
+    .box {
+      margin: auto;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      padding: 20px;
+      justify-content: center;
+    }
+  
+    .Math {
+      width: 100%;
+    }
+  
+    .Chem {
+      width: 100%;
+    }
+    .tool_cal {
+        height: 60px;
+        left: 30px;
+        position: fixed;
+    }
+    .calculator {
+      height: 300px;
+      width: 320px;
+      margin: 10px;
+    }
+  
+    .rocat_cal {
+        float: left;
+      }
+  
+    .close_cal {
+      margin: 5px 0;
+    }
+  
+    .tool_cal {
+      justify-self: center;
+    }
+  
+    .img_but1 {
+      width: auto;
+    }
+    
+  }
