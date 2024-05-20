@@ -3,9 +3,10 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
-mongoose.connect('mongodb+srv://Chananon:Chananon49@cluster0.antvl0w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
+
+mongoose.connect('mongodb+srv://Chananon:Chananon49@cluster0.antvl0w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0' , { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected...'))
   .catch(err => console.log(err));
 
